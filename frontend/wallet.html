@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Escrow Wallet</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+<!-- Navbar -->
+
+<nav class="bg-black text-white p-4 flex justify-between">
+<h1 class="font-bold text-xl">AI Escrow Platform</h1>
+<p>Escrow Wallet</p>
+</nav>
+
+<!-- Page Title -->
+
+<div class="text-center mt-10">
+<h2 class="text-3xl font-bold">Escrow Wallet Dashboard</h2>
+<p class="text-gray-600">Secure payment management</p>
+</div>
+
+<!-- Balance Cards -->
+
+<div class="grid grid-cols-3 gap-6 p-10">
+
+<div class="bg-white p-6 rounded shadow text-center">
+<h3 class="font-bold text-lg">Total Balance</h3>
+<p class="text-3xl mt-2">$2,400</p>
+</div>
+
+<div class="bg-white p-6 rounded shadow text-center">
+<h3 class="font-bold text-lg">Locked in Escrow</h3>
+<p class="text-3xl mt-2 text-yellow-600">$800</p>
+</div>
+
+<div class="bg-white p-6 rounded shadow text-center">
+<h3 class="font-bold text-lg">Released Payments</h3>
+<p class="text-3xl mt-2 text-green-600">$1,600</p>
+</div>
+
+</div>
+
+<!-- Transactions Table -->
+
+<div class="flex justify-center">
+
+<div class="bg-white shadow rounded p-8 w-3/4">
+
+<h3 class="text-xl font-bold mb-6">Transaction History</h3>
+
+<table class="w-full text-left border-collapse">
+
+<thead>
+<tr class="border-b">
+<th class="p-2">Project</th>
+<th class="p-2">Amount</th>
+<th class="p-2">Status</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr class="border-b">
+<td class="p-2">Startup Landing Page</td>
+<td class="p-2">$100</td>
+<td class="p-2 text-green-600">Released</td>
+</tr>
+
+<tr class="border-b">
+<td class="p-2">Mobile App UI</td>
+<td class="p-2">$250</td>
+<td class="p-2 text-yellow-600">In Escrow</td>
+</tr>
+
+<tr>
+<td class="p-2">Website Redesign</td>
+<td class="p-2">$300</td>
+<td class="p-2 text-green-600">Released</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+</body>
+</html>
